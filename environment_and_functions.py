@@ -1,0 +1,31 @@
+def custom_song(name,possession,noun,sound,name_2,possession_2,noun_2,sound_2):
+    print(f"{name} had a {possession},")
+    print("Ee i ee i o,")
+    print(f"And on their {possession} they had a {noun},")
+    print("Ee i ee i o,")
+    print(f"With a {sound} {sound} here,\nAnd a {sound} {sound} there,")
+    print(f"Here a {sound}, there a {sound},\nEverywhere a {sound},")
+    print(f"{name} had a {possession},")
+    print("Ee i ee i o,")
+    print()
+    print(f"{name_2} had a {possession_2},")
+    print("Ee i ee i o,")
+    print(f"And on their {possession_2} they had a {noun_2},")
+    print("Ee i ee i o,")
+    print(f"With a {sound_2} {sound_2} here,\nAnd a {sound_2} {sound_2} there,")
+    print(f"Here a {sound_2}, there a {sound_2},\nEverywhere a {sound_2},")
+    print(f"{name_2} had a {possession_2},")
+    print("Ee i ee i o")
+
+input_name = input("Enter a name: ")
+input_possession = input("Enter an object you own: ")
+input_noun = input("Enter something that is on the object you own: ")
+input_sound = input("Enter a sound: ")
+input_name_2 = input("Enter another name: ")
+input_possession_2 = input("Enter another object you own: ")
+input_noun_2 = input("Enter something that is on the object you own: ")
+input_sound_2 = input("Enter a sound: ")
+
+custom_song(name=input_name, possession=input_possession, noun=input_noun,
+            sound=input_sound, name_2=input_name_2, possession_2=
+            input_possession_2, noun_2=input_noun_2, sound_2=input_sound_2)
